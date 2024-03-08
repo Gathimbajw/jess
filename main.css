@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Light pink background, you can change it to her favorite color */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #ff69b4; /* Pink color */
+    color: white;
+  }
+  
+  footer {
+    background-color: #ff69b4; /* Pink color */
+    color: white;
+    margin-top: 30px;
+    padding: 10px 0;
+  }
+  
+  .animated-jess {
+    font-size: 72px;
+    font-weight: bold;
+    animation: flicker 2s infinite alternate, rotate 10s linear infinite;
+  }
+  
+  @keyframes flicker {
+    0%, 100% {
+      color: #ff69b4; /* Pink color */
+    }
+    50% {
+      color: #4b0082; /* Indigo color */
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .message {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  .animated-footer {
+    animation: slide 2s ease infinite alternate;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(20px);
+    }
+  }
+  
+  
+  
+  
